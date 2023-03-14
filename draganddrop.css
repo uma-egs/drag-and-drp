@@ -1,0 +1,32 @@
+.container{
+gap:20px;
+display:flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+.container .box{
+position: relative;
+height:160px;
+width:160px;
+border:2px solid black;
+border-radius: 20px;
+}
+.box .image{
+    background-image: url("./photo-1543857778-c4a1a3e0b2eb.jpeg");
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.box .image1{
+    background-image: url("./photo-1613828330596-982c62f72e9a.jpeg");
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.box .hovered{
+    border:2px dashed black;
+}
